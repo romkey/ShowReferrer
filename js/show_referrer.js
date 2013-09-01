@@ -6,8 +6,6 @@ var ShowReferrer = {
     init: function() {
 	var referrer = document.referrer;
 
-	console.log( 'referrer' + referrer );
-
 	if( !referrer )
 	    return;
 
