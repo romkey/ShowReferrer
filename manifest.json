@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Show Referrer",
     "description": "Chrome Extension to mark up web pages with their referrers",
-    "version": "0.1",
+    "version": "1.0.0",
     "minimum_chrome_version": "23.0.0",
     "icons": {
 	"16": "img/icon-16.png",
