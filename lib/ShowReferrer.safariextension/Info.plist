@@ -13,15 +13,21 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>2.0.2</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2.0.2</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
 	<dict>
 		<key>Scripts</key>
-		<dict/>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>js/jquery-2.0.3.min.js</string>
+				<string>js/show_referrer.js</string>
+			</array>
+		</dict>
 	</dict>
 	<key>Description</key>
 	<string>to mark up web pages with their referrers</string>
@@ -37,6 +43,8 @@
 			<string>All</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://romkey.com/showreferrer.plist</string>
 	<key>Website</key>
 	<string>http://romkey.com/code/show-referrer-chrome-extension/</string>
 </dict>

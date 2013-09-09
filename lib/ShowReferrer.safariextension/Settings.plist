@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>expand_short</string>
+		<key>Title</key>
+		<string>Expand shortened URLs (sends URL to external service)</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>1</real>
+		<key>Key</key>
+		<string>display_style</string>
+		<key>Title</key>
+		<string>Referrer Display Style</string>
+		<key>Titles</key>
+		<array>
+			<string>Translucent Overlay</string>
+			<string>Bar</string>
+		</array>
+		<key>Type</key>
+		<string>ListBox</string>
+		<key>Values</key>
+		<array>
+			<real>1</real>
+			<real>2</real>
+		</array>
+	</dict>
+</array>
+</plist>
