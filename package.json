@@ -1,0 +1,34 @@
+{
+  "name": "ShowReferrer",
+  "version": "0.1.0",
+  "description": "Chrome Extension that adds markup a web page, showing the referrer to it",
+  "main": "show_referrer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/romkey/ShowReferrer.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "referrer"
+  ],
+  "author": "John Romkey",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "2fb2af1f789a759e4a8d59efbebb78080d64dc63",
+  "bugs": {
+    "url": "https://github.com/romkey/ShowReferrer/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-git-authors": "~1.2.0",
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-compress": "~0.5.2",
+    "grunt-text-replace": "~0.3.7",
+    "grunt-version": "~0.2.2",
+    "grunt-bumpup": "~0.2.0"
+  }
+}
